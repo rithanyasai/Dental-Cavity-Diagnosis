@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image
 from tensorflow import keras
-MODEL=keras.models.load_model("D:\DENTAL_proj\Dental_proj3.h5")
+MODEL=keras.models.load_model("D:\DENTAL_proj\Dental_proj5.h5")
 
 upload_image = slt.file_uploader(label='Upload image', type=['png', 'jpg','jpeg'],accept_multiple_files=False)
 
