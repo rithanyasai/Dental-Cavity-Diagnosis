@@ -9,4 +9,13 @@ model consists of 7 convulutional layers and 6 max pooling layers that uses RELU
 <br />
 I used binary_crossentropy as loss function and optimizer as adam.<br /><br />
 model is fit for 12 epochs after which it gives an accuracy of 82.76%
+<br/>
+</br>
+UPDATE:
+</br>
+  Uploaded another remake of this project increasing each class upto 1000, using Augmentor. </br>
+  Augmentor is a Python package designed to aid the augmentation and artificial generation of image data for machine learning tasks. </br>
+  The developed Model has shown good Generalizability and Prediction.</br>
+  I have included Early Stopping with Patience 3, training stopped at the 9th epoch. </br>
+  Accuracy is about 98.4% 
 
